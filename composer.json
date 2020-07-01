@@ -1,6 +1,6 @@
 {
-    "name": "ifsnop/mysqldump-php",
-    "description": "PHP version of mysqldump cli that comes with MySQL",
+    "name": "luc45/mysqldump-php",
+    "description": "A fork of https://github.com/ifsnop/mysqldump-php, a PHP implementation of mysqldump.",
     "type": "library",
     "keywords": ["mysql", "mysqldump", "pdo", "php7", "php5", "database", "php", "sql", "hhvm", "mariadb", "mysql-backup"],
     "homepage": "https://github.com/ifsnop/mysqldump-php",
@@ -10,6 +10,11 @@
         {
             "name" : "Diego Torres",
             "homepage": "https://github.com/ifsnop",
+            "role": "Developer"
+        },
+        {
+            "name" : "Lucas Bustamante",
+            "homepage": "https://github.com/Luc45",
             "role": "Developer"
         }
     ],
@@ -21,6 +26,6 @@
         "phpunit/phpunit": "4.8.36"
     },
     "autoload": {
-        "psr-4": {"Ifsnop\\": "src/Ifsnop/"}
+        "psr-4": {"Luc45\\": "src/Luc45/"}
     }
 }

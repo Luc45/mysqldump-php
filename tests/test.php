@@ -8,7 +8,7 @@ date_default_timezone_set('UTC');
 
 error_reporting(E_ALL);
 
-include_once(dirname(__FILE__) . "/../src/Ifsnop/Mysqldump/Mysqldump.php");
+include_once(dirname(__FILE__) . "/../src/Mysqldump/Mysqldump.php");
 
 use Ifsnop\Mysqldump as IMysqldump;
 
