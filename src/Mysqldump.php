@@ -227,6 +227,14 @@ class Mysqldump {
 		return $this->pdo_settings_defaults;
 	}
 
+	public function set_dump_settings( array $dump_settings ) {
+		$this->dumpSettings = $dump_settings;
+	}
+
+	public function set_pdo_settings( array $pdo_settings ) {
+		$this->pdoSettings = $pdo_settings;
+	}
+
 	/**
 	 * Custom array_replace_recursive to be used if PHP < 5.3
 	 * Replaces elements from passed arrays into the first array recursively.
