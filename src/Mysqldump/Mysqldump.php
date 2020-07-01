@@ -215,6 +215,18 @@ class Mysqldump {
 		$this->dbHandler = null;
 	}
 
+	public function get_db_handler() {
+		return $this->dbHandler;
+	}
+
+	public function get_dump_settings_defaults() {
+		return $this->dump_settings_defaults;
+	}
+
+	public function get_pdo_settings_defaults() {
+		return $this->pdo_settings_defaults;
+	}
+
 	/**
 	 * Custom array_replace_recursive to be used if PHP < 5.3
 	 * Replaces elements from passed arrays into the first array recursively.
@@ -346,7 +358,7 @@ class Mysqldump {
 	 *
 	 * @return null
 	 */
-	protected function connect() {
+	public function connect() {
 		// Connecting with PDO.
 		try {
 			switch ( $this->dbType ) {
