@@ -26,6 +26,8 @@
         "phpunit/phpunit": "4.8.36"
     },
     "autoload": {
-        "psr-4": {"Luc45\\": "src/Luc45/"}
+        "psr-4": {
+            "MySqlDumpPhp\\": "src"
+        }
     }
 }

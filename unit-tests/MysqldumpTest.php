@@ -1,6 +1,6 @@
 <?php
 
-use Ifsnop\Mysqldump\Mysqldump;
+use MySqlDumpPhp\Mysqldump;
 
 class MysqldumpTest extends PHPUnit_Framework_TestCase
 {
