@@ -1,5 +1,5 @@
 {
-    "name": "luc45/mysqldump-php",
+    "name": "lucasbustamante/mysqldump-php",
     "description": "A fork of https://github.com/ifsnop/mysqldump-php, a PHP implementation of mysqldump.",
     "type": "library",
     "keywords": ["mysql", "mysqldump", "pdo", "php7", "php5", "database", "php", "sql", "hhvm", "mariadb", "mysql-backup"],
